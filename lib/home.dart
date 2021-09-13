@@ -47,7 +47,7 @@ class _homeState extends State<home> {
                     onPressed: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
-                        return second();
+                        return Second();
                       }));
                     },
                     icon: Icon(

@@ -3,14 +3,14 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:demo1/address.dart';
 
-class second extends StatefulWidget {
-  const second({Key? key}) : super(key: key);
+class Second extends StatefulWidget {
+  const Second({Key? key}) : super(key: key);
 
   @override
-  _secondState createState() => _secondState();
+  _SecondState createState() => _SecondState();
 }
 
-class _secondState extends State<second> {
+class _SecondState extends State<Second> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
